@@ -18,11 +18,8 @@ def create_app():
     
     # Middleware for handling requests
     app.before_request(before_request_middleware)
-    
     app.register_blueprint(auth_bp, url_prefix='/auth')
     
-    
-
     @app.route('/', methods=['GET'])
     def home():
         return jsonify({
