@@ -1,0 +1,8 @@
+python-dotenv
+flask_sqlalchemy
+Flask==3.0.3
+mysql-connector-python==8.0.26
+PyJWT
+mysqlclient
+SQLAlchemy==2.0.32
+PyMySQL==1.1.1
